@@ -1,0 +1,11 @@
+name: torchvision
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=10.0.130=0
+  - python=3.6.8=h9f7ef89_7
+  - pytorch=1.1.0=py3.6_cuda100_cudnn7_1
+  - torchvision=0.3.0=py36_cu100_1
+  - pip:
+    - azureml-sdk==1.0.53
